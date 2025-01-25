@@ -1,0 +1,99 @@
+
+/* Загальні стилі */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Concert One', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+h1, h2, p {
+  font-family: 'Concert One', sans-serif;
+}
+
+/* Стилі для логотипу */
+.logo h1 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #32CD32; /* Зелений колір для логотипу */
+}
+
+/* Навігація */
+.navbar {
+  background-color: #32CD32; /* Основний зелений фон */
+  padding: 10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar ul li {
+  margin-right: 20px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+
+.categories .dropdown {
+  display: none;
+  position: absolute;
+  background-color: #2e8b57; /* Темніший зелений для меню */
+  width: 200px;
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.categories:hover .dropdown {
+  display: block;
+}
+
+.categories li a {
+  padding: 10px;
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
+/* Гамбургер-меню */
+.menu-toggle {
+  display: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.menu-toggle .bar {
+  background-color: #fff;
+  width: 30px;
+  height: 4px;
+  margin: 6px 0;
+}
+
+/* Секції */
+.section {
+  padding: 40px 20px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+}
+
+h1, h2 {
+  color: #32CD32; /* Зел
